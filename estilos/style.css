@@ -1,0 +1,130 @@
+@charset "UTF-8"
+
+/*paleta de cores
+verde: #49a89d
+lilas:#5f2c82
+*/
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body, html{
+    background-color:#57a8ebf5 ;
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    overflow: hidden;
+
+    width: 262px;
+    height: 515px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.907);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+   
+}
+section#login > div#imagem {
+    display: block;
+    background:  url(../img/imagem.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+
+}
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
+}
+div#formulario > h1 {
+    text-align: center;
+    margin-top: -5px;
+    
+}
+div#formulario > p{
+    font-size: 0.8em;
+    margin-top: -5px;
+}
+form > div.campo {
+    background-color: #57a8ebf5 ;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px; 
+   
+}
+div.campo > label {
+    display: none;
+}
+div.campo> span{
+    display: contents;
+    color: white;
+    font-size: 1.5em;
+    width: 40px ;
+   margin-top: -30px;
+   padding-right:  -20px;
+  
+}
+div.campo > input{
+    background-color: #57a8ebf5;
+    font-size: 1em;
+    width: calc(100% - 38px);
+    transform: translateY(-15px);
+    
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 23px;
+    margin-top: -30px;
+}
+div.campo > input:focus-within{
+    background-color: white; /*qdo clica pra digitar o email fica branco*/
+}
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    background-color:#57a8ebf5 ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+form > input[type=submit]:hover{
+    background-color: #0a66b2f5;
+}
+form > a.botao{
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 5px;
+    font-size: 1em;
+    width: 100%;
+    height: 35px;
+    background-color:white;
+    color: #0d5895f5;
+    border: 1px solid #57a8ebf5;
+    border-radius: 7px;
+    text-decoration: none;
+
+}
+form > a.botao:hover{
+    background-color: #57a8ebf5;
+}
+form > a.botao > i{
+    font-size: 0.8em;
+}

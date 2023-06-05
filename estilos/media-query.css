@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+   body{
+    background-image: linear-gradient(to top, #57a8ebf5, rgba(0, 0, 0, 0.637));
+    
+   }
+    section#login{
+        width: 80vw;
+        height: 297px;
+        font-size: 1.2em;
+       
+        
+        
+    }
+    section#login > div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+        
+    }
+    section#login > div#formulario >p{
+        float: right;
+       width: 70%;
+       
+
+       
+    }
+    div.campo> input{
+   
+       box-sizing: border-box;
+        width: 94%;
+        height: 30px;
+        font-size: 1em;
+      
+       transform: translateX(27px);
+       margin-left: 5px;
+       display: block;
+       
+       
+    }
+     form > div.campo {
+     width: 70%;
+      border-radius: 7px;
+    display: flow-root;
+    background-color: #57a8ebf5 ;
+    
+     }
+    
+     form > input[type=submit] {
+        display: flow-root;
+        font-size: 1em;
+        width: 70%;
+        
+       
+     
+        
+       
+     }
+     
+
+  
+    form > a.botao{
+        display: flow-root;
+        font-size: 0.9em;
+            width: 70%;
+           
+          
+       
+            
+
+            
+        
+    }
+     
+}
+
+
+
+         
+    
+
+  
+
+   @media screen and (min-width: 992px)   {
+    body{
+        background-image: linear-gradient(to top, #57a8ebf5, rgba(0, 0, 0, 0.637));
+       }
+    section#login {
+        width: 950px;
+        height: 350px;
+    }
+    section#login > div#imagem{
+        float: right;
+        width: 50%;
+        height:100%;
+    }
+    section#login > div#formulario > p{
+        float: left;
+        width: 50%;
+    }
+    div#formulario > h1{
+        font-size: 1.4em;
+        
+    }
+    div#formulario > p{
+        font-size: 1em;
+        color: black;
+   }
+   form > div.campo {
+    width: 50%;
+    
+    display: flow-root;
+    
+    background-color: #57a8ebf5 ;
+    
+   }
+
+   form > input[type=submit] {
+     width: 50%;
+     
+        
+}  
+    form > a.botao{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    
+   
+
+ }
